@@ -146,3 +146,86 @@ ul {
 #photo-gallery {
   width: 100%;
 }
+
+
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+  color:#fbe2cb;
+}
+
+h1:before,
+h1:after {
+  background-color: #fbe2cb;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 28%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/***/
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+  color:#fbe2cb;
+}
+
+h3:before,
+h3:after {
+  background-color: #fbe2cb;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 28%;
+}
+
+h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+
+.content-related-post {
+  padding: 20px 50px;
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+}
+
+ 
+
+.border-bottom {
+  border-bottom: 1px solid #fbe2cb!important;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.card-text{
+  color: #fbe2cb;
+}
+
+.display-3{
+  font-weight: 800;
+}
