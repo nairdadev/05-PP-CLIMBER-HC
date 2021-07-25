@@ -61,6 +61,12 @@ header .overlay {
   margin-bottom: 0.5rem;
 }
 
+.card-text{
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.2rem;
+}
 .tag{
   border: 1px solid #fbe2cb;
   width: 20%;
